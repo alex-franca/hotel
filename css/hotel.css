@@ -26,7 +26,7 @@ footer .card-body a{
     color: rgba(255, 255, 255, 0.8) !important;
 }
 footer .card-header{
-    background-color: rgb(17, 25, 31) !important;
+    background-color: blue !important;
     text-align: center;
 }
 footer .card-header a{
@@ -38,4 +38,65 @@ footer .card-header a{
 footer .card-header a:hover{
     color: blue;
 
+}
+main{
+    padding: 20px;
+}
+
+
+
+main h2{
+    margin: 30px 100px 60px 100px;
+}
+
+
+main .card img{
+    width: 600px;
+    margin: 0 200px;
+    display:block
+    
+    
+    
+}
+main table,main table tr,main table tr td,main table tr th{
+    border: 1px solid black;
+}
+main table td{
+    padding: 5px  ;
+}
+main table th{
+    text-align: center;
+}
+main table td h3{
+    text-align: center;
+}
+main table{
+    margin: 50px auto 100px auto ;
+}
+main table tr{
+    
+    transition: ease 1s;
+}
+main table tr:hover{
+    background-color: lightblue;
+    cursor:pointer
+}
+.titulo-tarifas{
+    background-color: lightblue;
+
+}
+main form{
+    margin: 50px auto !important;
+    width: 80% !important;
+    padding: 10px !important;
+    border: 1px solid lightskyblue;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+main form textarea{
+     resize: none;
+}
+main form button{
+    display: block !important;
+    margin: 20px auto !important;
 }
